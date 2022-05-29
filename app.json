@@ -1,0 +1,70 @@
+{
+  "name": "cobra",
+  "description": "اهلا بك في سورس كوبرا",
+  "logo": "https://telegra.ph/file/88b0307eda38438f2eae4.jpg",
+  "keywords": ["plugin","modular","productivity"],
+  "repository": "https://github.com/ERTWF/cobra",
+  "website": "#TODO",
+  "success_url": "#TODO",
+  "env": {
+    "ALIVE_NAME": {
+      "description": "هنا ضع اسم التلجرام الخاص بك",
+      "value": ""
+    },
+    "APP_ID": {
+      "description": "هنا ضع الايبي ايدي الخاص بك يتكون من ارقام", 
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "هنا ضع الايبي هاش الخاص بك يتكون من احرف و ارقام",
+      "value": ""
+    },
+    "STRING_SESSION": {
+      "description": "هنا ضع كود تيرمكس الخاص بك",
+      "value": ""
+    },
+    "TG_BOT_USERNAME": {
+      "description": "هنا ضع معرف بوتك بدون @",
+      "value": ""
+    },
+    "TG_BOT_TOKEN": {
+      "description": "هنا ضع توكن بوتك",
+      "value": ""
+    },
+    "COMMAND_HAND_LER": {
+      "description": "ضع هنا رمز الأمر الذي تريدة أو اتركة كما هوة",
+      "value": "."
+    },
+    "TZ": {
+      "description": "المنطقه الزمنيه من القارة الخاصه بك وعاصمه بلدك",
+      "value": "Asia/Baghdad",
+      "required": false
+    },
+    "UPSTREAM_REPO": {
+      "description": "https://github.com/source56/cobra",
+      "value": "Rsthon",
+      "required": false
+    }
+  },
+  "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "12"
+    }
+  }],
+  "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
+  },{
+    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
+  },{
+    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+  },{
+    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
+  },{
+    "url": "heroku/python"
+  }]
+}
