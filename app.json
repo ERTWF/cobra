@@ -41,8 +41,8 @@
       "required": false
     },
     "UPSTREAM_REPO": {
-      "description": "https://github.com/source56/cobra",
-      "value": "Rsthon",
+      "description": "لاتغيرة",
+      "value": "https://github.com/source56/cobra",
       "required": false
     }
   },
