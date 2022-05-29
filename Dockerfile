@@ -1,13 +1,13 @@
-FROM telethonAr/telethonArab:alpine
+FROM alibit3/Rsthon:alpine
 
 #clonning repo 
-RUN git clone https://github.com/source56/cobra.git /root/userbot
+RUN git clone https://github.com/source56/cobra.git/root/iqthon
 #working directory 
-WORKDIR /root/userbot
+WORKDIR /root/iqthon
 
 # Install requirements
 RUN pip3 install -U -r requirements.txt
 
-ENV PATH="/home/userbot/bin:$PATH"
+ENV PATH="/home/iqthon/bin:$PATH"
 
-CMD ["python3","-m","userbot"]
+CMD ["python3","-m","iqthon"]
