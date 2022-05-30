@@ -33,7 +33,7 @@
     },
     "TZ": {
       "description": " الوقت",
-      "value": "Asia/Riyadh",
+      "value": "Asia/Baghdad",
       "required": false
     },
     "UPSTREAM_REPO": {
