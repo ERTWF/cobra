@@ -1,48 +1,44 @@
 {
-  "name": "cobra",
-  "description": "اهلا بك في سورس كوبرا",
-  "logo": "https://telegra.ph/file/88b0307eda38438f2eae4.jpg",
-  "keywords": ["plugin","modular","productivity"],
+  "name": "سورس كوبرا الاول",
+  "description": "تنصيب سورس كوبرا الاصلي معرف قناتنا @VFF35",
+  "logo": "https://telegra.ph/file/8dd5ef5b8ea6b2f4dbe95.jpg",
+  "keywords": [    "plugin",    "modular",    "productivity"  ],
   "repository": "https://github.com/ERTWF/cobra",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
     "ALIVE_NAME": {
-      "description": "هنا ضع اسم التلجرام الخاص بك",
+      "description": "ضع اسمك الذي في تليجرام",
       "value": ""
     },
     "APP_ID": {
-      "description": "هنا ضع الايبي ايدي الخاص بك يتكون من ارقام", 
+      "description": "ضع الايبي ايدي هنا",
       "value": ""
     },
     "API_HASH": {
-      "description": "هنا ضع الايبي هاش الخاص بك يتكون من احرف و ارقام",
+      "description": "ضع الايبي هاش هنا",
       "value": ""
     },
     "STRING_SESSION": {
-      "description": "هنا ضع كود تيرمكس الخاص بك",
+      "description": "ضع كود تيرمكس هنا",
       "value": ""
     },
     "TG_BOT_USERNAME": {
-      "description": "هنا ضع معرف بوتك بدون @",
+      "description": " ضع معرف البوت هنا",
       "value": ""
     },
     "TG_BOT_TOKEN": {
-      "description": "هنا ضع توكن بوتك",
+      "description": "ضع توكن البوت هنا",
       "value": ""
     },
-    "COMMAND_HAND_LER": {
-      "description": "ضع هنا رمز الأمر الذي تريدة أو اتركة كما هوة",
-      "value": "."
-    },
     "TZ": {
-      "description": "المنطقه الزمنيه من القارة الخاصه بك وعاصمه بلدك",
-      "value": "Asia/Baghdad",
+      "description": " الوقت",
+      "value": "Asia/Riyadh",
       "required": false
     },
     "UPSTREAM_REPO": {
-      "description": "لاتغيرة",
-      "value": "https://github.com/source56/cobra",
+      "description": "لاتـغيره! ",
+      "value": "https://github.com/source56/COBRA",
       "required": false
     }
   },
